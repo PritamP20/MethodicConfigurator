@@ -532,7 +532,7 @@ class FlightController:  # pylint: disable=too-many-public-methods,too-many-inst
                 logging_info(_("MAVLink signing configured on flight controller"))
             else:
                 logging_warning(
-                    _("Failed to send SETUP_SIGNING command: %(error)s. " "Signing may still work if FC is pre-configured."),
+                    _("Failed to send SETUP_SIGNING command: %(error)s. Signing may still work if FC is pre-configured."),
                     {"error": error},
                 )
                 # Don't fail completely - signing might still work if FC already has the key

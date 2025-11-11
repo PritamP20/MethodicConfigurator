@@ -115,10 +115,10 @@ ArduPilot-based flight controllers using the MAVLink protocol.
 ### MAVLink Authentication
   This module implements secure key management and message authentication for MAVLink communication between the Ground Control Software and Flight Controller.
 
-- **Location:**  
-  - `ardupilot_methodic_configurator/backend_signing_keystore.py`  
+- **Location:**
+  - `ardupilot_methodic_configurator/backend_signing_keystore.py`
   - `ardupilot_methodic_configurator/flightcontroller/signing.py`
-  
+
 - **Responsibilities:**
   - Generate and securely store cryptographic signing keys.
   - Provide message signing and replay protection using HMAC-SHA-256.

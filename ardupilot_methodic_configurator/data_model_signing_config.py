@@ -9,7 +9,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
 """
 
 from dataclasses import dataclass, field
-from typing import Optional
 
 from ardupilot_methodic_configurator import _
 

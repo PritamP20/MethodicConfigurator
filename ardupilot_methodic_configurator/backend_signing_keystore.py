@@ -448,7 +448,7 @@ class SigningKeyStore:
 # Example usage and testing
 if __name__ == "__main__":
     import sys
-    from logging import basicConfig, DEBUG
+    from logging import DEBUG, basicConfig
 
     basicConfig(level=DEBUG)
 
@@ -469,9 +469,9 @@ if __name__ == "__main__":
     # Retrieve the key
     retrieved_key = keystore.retrieve_key(vehicle_id)
     if retrieved_key == key:
-        print(f"✓ Retrieved key matches original")
+        print("✓ Retrieved key matches original")
     else:
-        print(f"✗ Retrieved key does not match")
+        print("✗ Retrieved key does not match")
         sys.exit(1)
 
     # List vehicles
